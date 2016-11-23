@@ -1,1 +1,111 @@
+ERROR=11/20/2016 16:41:25
+	SQLDBCODE:-625
+SQLERRTEXT:SQLSTATE = 23000
+[ODBC Firebird Driver][Firebird]validation error for column "BOM"."URL", value "*** null ***"
 
+No changes made to database.
+
+INSERT INTO BOM ( ID, NUM, DESCRIPTION, TYPEID, REVISION, URL, NOTE, ACTIVEFLAG, AUTOCREATETYPEID, CONFIGURABLE, PICKFROMLOCATION, ESTIMATEDDURATION, STATISTICSDATERANGE, DATECREATED, DATELASTMODIFIED, USERID, QBCLASSID ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+DataObject : d_z1
+ERROR=11/20/2016 16:41:28
+	Error in Update(d_z1) function. Please check your data (error.log).  
+ERROR=11/20/2016 16:43:04
+	SQLDBCODE:-803
+SQLERRTEXT:SQLSTATE = 23000
+[ODBC Firebird Driver][Firebird]violation of PRIMARY or UNIQUE KEY constraint "INTEG_563" on table "BOM"
+Problematic key value is ("ID" = 2)
+
+No changes made to database.
+
+INSERT INTO BOM ( ID, NUM, DESCRIPTION, TYPEID, REVISION, URL, NOTE, ACTIVEFLAG, AUTOCREATETYPEID, CONFIGURABLE, PICKFROMLOCATION, ESTIMATEDDURATION, STATISTICSDATERANGE, DATECREATED, DATELASTMODIFIED, USERID, QBCLASSID ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+DataObject : d_z1
+ERROR=11/20/2016 16:43:32
+	Error in Update(d_z1) function. Please check your data (error.log).  
+ERROR=11/20/2016 19:14:33
+	SQLDBCODE:0
+SQLERRTEXT:Select Error: Column lists do not match.
+DataObject : d_fb_batch_grid4
+ERROR=11/20/2016 19:14:45
+	SQLDBCODE:0
+SQLERRTEXT:Select Error: Column lists do not match.
+DataObject : d_fb_batch_grid4
+ERROR=11/20/2016 20:12:54
+	SQLDBCODE:0
+SQLERRTEXT:Select Error: Column lists do not match.
+DataObject : d_fb_batch_grid4
+ERROR=11/21/2016 19:04:31
+	SQLDBCODE:2627
+SQLERRTEXT:SQLSTATE = 23000
+Microsoft OLE DB Provider for SQL Server
+Violation of PRIMARY KEY constraint 'APP_USERS_MENU_x'. Cannot insert duplicate key in object 'dbo.APP_USERS_MENU'.
+
+No changes made to database.
+
+INSERT INTO APP_USERS_MENU ( menu_id, user_id ) VALUES ( 100093, 'TEST2' )
+DataObject : d_app_users_menu_grid
+ERROR=11/21/2016 19:05:17
+	Error in Update(d_app_users_menu_grid) function. Please check your data (error.log).  
+ERROR=11/21/2016 19:12:20
+	Parent : w_sheet_extend_users
+	Object : w_sheet_extend_users
+	Function/Event : ue_dynamic4
+	Error Message : Null object reference at line 16 in ue_dynamic4 event of object w_sheet_extend_users.
+ERROR=11/21/2016 19:12:32
+	Parent : w_sheet_extend_users
+	Object : w_sheet_extend_users
+	Function/Event : ue_dynamic4
+	Error Message : Null object reference at line 16 in ue_dynamic4 event of object w_sheet_extend_users.
+ERROR=11/21/2016 19:52:31
+	SQLDBCODE:2627
+SQLERRTEXT:SQLSTATE = 23000
+Microsoft OLE DB Provider for SQL Server
+Violation of PRIMARY KEY constraint 'PK_FB_Cooler'. Cannot insert duplicate key in object 'dbo.FB_Cooler'.
+
+No changes made to database.
+
+INSERT INTO FB_Cooler ( CTRNo, BatchCode, LotNo, BatchNo, BatchSeq, DateIn, QTYIn, UserIn ) VALUES ( 6781, 'Y', 'Y-16-10-20', 'Y0132616', 2, {ts '2016-11-21 19:52:05.610'}, 6.00, 'XXXXX' )
+DataObject : d_fb_cooler_grid1
+ERROR=11/21/2016 19:52:46
+	Error in Update(d_fb_cooler_grid1) function. Please check your data (error.log).  
+ERROR=11/21/2016 19:52:59
+	SQLDBCODE:2627
+SQLERRTEXT:SQLSTATE = 23000
+Microsoft OLE DB Provider for SQL Server
+Violation of PRIMARY KEY constraint 'PK_FB_Cooler'. Cannot insert duplicate key in object 'dbo.FB_Cooler'.
+
+No changes made to database.
+
+INSERT INTO FB_Cooler ( CTRNo, BatchCode, LotNo, BatchNo, BatchSeq, DateIn, QTYIn, UserIn ) VALUES ( 6781, 'Y', 'Y-16-10-20', 'Y0132616', 2, {ts '2016-11-21 19:52:05.610'}, 6.00, 'XXXXX' )
+DataObject : d_fb_cooler_grid1
+ERROR=11/21/2016 19:53:02
+	Error in Update(d_fb_cooler_grid1) function. Please check your data (error.log).  
+ERROR=11/21/2016 20:49:47
+	Parent : uo_propacksummary1
+	Object : dw_data
+	Function/Event : ue_postinsertrow
+	Error Message : Name not found accessing external object property from_date at line 3 in ue_postinsertrow event of object dw_data of uo_propacksummary1.
+ERROR=11/21/2016 20:50:20
+	Parent : uo_propacksummary1
+	Object : dw_detail
+	Function/Event : ue_preretrieve
+	Error Message : Name not found accessing external object property from_date at line 4 in ue_preretrieve event of object dw_detail of uo_propacksummary1.
+ERROR=11/21/2016 20:59:36
+	Parent : u_dw_control
+	Object : u_dw_control
+	Function/Event : of_registercolumn
+	Error Message : Null object reference at line 18 in function of_registercolumn of object u_dw_control.
+ERROR=11/22/2016 18:47:42
+	Parent : uo_propacksummary1
+	Object : dw_detail
+	Function/Event : ue_preupdate
+	Error Message : Name not found accessing external object property ctrmstno at line 14 in ue_preupdate event of object dw_detail of uo_propacksummary1.
+ERROR=11/22/2016 19:57:19
+	Parent : uo_propacksummary1
+	Object : dw_detail
+	Function/Event : ue_preupdate
+	Error Message : Mismatched ANY data types in expression: decimal, string at line 12 in ue_preupdate event of object dw_detail of uo_propacksummary1.
+ERROR=11/22/2016 20:00:19
+	Parent : uo_propacksummary1
+	Object : dw_detail
+	Function/Event : ue_preupdate
+	Error Message : Error accessing external object property ctrno at line 17 in ue_preupdate event of object dw_detail of uo_propacksummary1.

@@ -4,5 +4,5 @@ Save Format v3.0(19990112)
 @end;
 appname "iaftracking";
 applib "iefastraksys.pbl";
-LibList "iefastraksys.pbl;appservice.pbl;appsystem.pbl;fcsvc.pbl;EXE\\santilmo.pbd;biometrics.pbl;fishbowl.pbl;inventory.pbl";
+LibList "iefastraksys.pbl;appservice.pbl;appsystem.pbl;biometrics.pbl;fcsvc.pbl;PBCore\\santilmo.pbd;fishbowl.pbl;inventory.pbl";
 type "pb";
