@@ -1,0 +1,129 @@
+cryptInit: OK
+cryptCreateSession: OK
+cryptSetAttribute (Set compliance level): OK
+cryptSetAttributeString (Add the server name): OK
+cryptSetAttribute (Specify the Port): OK
+cryptSetAttribute (Activate the session): OK
+cryptPopData: OK
+cryptSetAttribute (Set timeout): OK
+Cmd: HELO User
+OK: 250
+Reply:
+250 smtp.gmail.com at your service
+
+Cmd: EHLO User
+OK: 250
+Reply:
+250-smtp.gmail.com at your service, [47.54.191.19]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Cmd: AUTH LOGIN
+OK: 334
+Reply:
+334 VXNlcm5hbWU6
+
+Cmd: ZGVub2NpbGxhc0Bob25pYmUuYOK: 334
+Reply:
+334 UGFzc3dvcmQ6
+
+Cmd: anVhbml0YXM=
+OK: 235
+Command failed:
+anVhbml0YXM=
+
+Reply:
+535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x4sm20284422qtc.42 - gsmtp
+
+cryptInit: OK
+cryptCreateSession: OK
+cryptSetAttribute (Set compliance level): OK
+cryptSetAttributeString (Add the server name): OK
+cryptSetAttribute (Specify the Port): OK
+cryptSetAttribute (Activate the session): OK
+cryptPopData: OK
+cryptSetAttribute (Set timeout): OK
+Cmd: HELO User
+OK: 250
+Reply:
+250 smtp.gmail.com at your service
+
+Cmd: EHLO User
+OK: 250
+Reply:
+250-smtp.gmail.com at your service, [47.54.191.19]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Cmd: AUTH LOGIN
+OK: 334
+Reply:
+334 VXNlcm5hbWU6
+
+Cmd: ZGVub2NpbGxhc0Bob25pYmUuYOK: 334
+Reply:
+334 UGFzc3dvcmQ6
+
+Cmd: bWFyY29zMTkyNQ==
+OK: 235
+Command failed:
+bWFyY29zMTkyNQ==
+
+Reply:
+534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor b198sm20316898qkc.42 - gsmtp
+
+cryptInit: OK
+cryptCreateSession: OK
+cryptSetAttribute (Set compliance level): OK
+cryptSetAttributeString (Add the server name): OK
+cryptSetAttribute (Specify the Port): OK
+cryptSetAttribute (Activate the session): OK
+cryptPopData: OK
+cryptSetAttribute (Set timeout): OK
+Cmd: HELO User
+OK: 250
+Reply:
+250 smtp.gmail.com at your service
+
+Cmd: EHLO User
+OK: 250
+Reply:
+250-smtp.gmail.com at your service, [47.54.191.19]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Cmd: AUTH LOGIN
+OK: 334
+Reply:
+334 VXNlcm5hbWU6
+
+Cmd: ZGVub2NpbGxhc0Bob25pYmUuYOK: 334
+Reply:
+334 UGFzc3dvcmQ6
+
+Cmd: ZmRoZ3hleHpzcnpoc3Vueg==OK: 235
+Reply:
+235 2.7.0 Accepted
+
+Cmd: QUIT
+OK: 221
+Reply:
+221 2.0.0 closing connection a47sm20249847qtc.17 - gsmtp
+
