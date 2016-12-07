@@ -1,0 +1,10 @@
+ERROR=12/06/2016 20:12:14
+	Parent : uo_gummy1
+	Object : uo_gummy1
+	Function/Event : of_populateindividual
+	Error Message : Null object reference at line 34 in function of_populateindividual of object uo_gummy1.
+ERROR=12/06/2016 20:12:22
+	Parent : uo_gummy1
+	Object : uo_gummy1
+	Function/Event : of_populateindividual
+	Error Message : Null object reference at line 34 in function of_populateindividual of object uo_gummy1.
